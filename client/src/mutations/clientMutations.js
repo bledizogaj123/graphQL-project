@@ -1,4 +1,4 @@
-import {gql} from  '@apollo/client';
+import { gql } from '@apollo/client';
 
 const DELETE_CLIENT = gql`
     mutation deleteClient($id: ID!) {
@@ -11,4 +11,4 @@ const DELETE_CLIENT = gql`
     }
 `;
 
-export {DELETE_CLIENT};
+export { DELETE_CLIENT };
