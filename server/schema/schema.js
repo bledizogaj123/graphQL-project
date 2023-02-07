@@ -8,11 +8,10 @@ const { GraphQLObjectType,
     GraphQLSchema,
     GraphQLList,
     GraphQLNonNull,
-    GraphlQLEnumType,
     GraphQLEnumType,
 } = require('graphql');
 
-//Client Type
+//Project Type
 const ProjectType = new GraphQLObjectType({
     name: 'Project',
     fields: () => ({
